@@ -53,7 +53,7 @@ void mergeSort(int arr[], int l, int r) {
 
         cout << "Divide: ";
         printArray(arr, l, r);
-        cout << " → Left: ";
+        cout << " -> Left: ";
         printArray(arr, l, m);
         cout << " | Right: ";
         printArray(arr, m + 1, r);
